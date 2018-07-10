@@ -4,7 +4,6 @@
 # expect
 !.gitignore
 !.bash_profile
-#!.bashrc
 !.vimrc
 !.condarc
 !.gitconfig
