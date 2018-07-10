@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = mloning
+	email = mm_loening@gmx.de
+[color]
+	ui = auto
+[core]
+	autocrlf = true
+	editor = vim
+[push]
+	default = simple
